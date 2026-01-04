@@ -1,0 +1,33 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/assistive_library}
+    username: ${DB_USERNAME:assistive}
+    password: ${DB_PASSWORD:assistive}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+    properties:
+      hibernate:
+        format_sql: true
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+
+logging:
+  level:
+    org.hibernate.SQL: info
+
+library:
+  security:
+    token-ttl-hours: 12
+    default-admin:
+      username: admin
+      password: admin123
+  loans:
+    due-days: 14
+    fine-per-day: 1.0
+    max-active: 5

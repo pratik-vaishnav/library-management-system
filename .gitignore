@@ -1,0 +1,25 @@
+# Build outputs
+**/target/
+**/out/
+
+# Logs
+*.log
+*.err
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+
+# OS files
+Thumbs.db
+Desktop.ini
+
+# Local data
+*.db
+*.sqlite
+*.sqlite3
