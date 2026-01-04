@@ -86,6 +86,8 @@ Use the "Seed Demo Data" action on the Dashboard to populate sample books and me
 - SRS: `docs/Assistive-Offline-First-Library-SRS.docx`
 - Product pitch: `docs/PRODUCT_PITCH.md`
 - SRS (Markdown): `docs/SRS.md`
+- Release notes: `docs/RELEASE_NOTES.md`
+- Demo walkthrough: `docs/DEMO_WALKTHROUGH.md`
 
 ## Roadmap (high level)
 
